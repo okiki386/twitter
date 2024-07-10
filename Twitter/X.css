@@ -1,0 +1,181 @@
+*{
+    margin: 25;
+    padding: 25;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #36454F;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 595px;
+    height: 640px;
+    margin-left: 250px;
+
+}
+.main .maincontainer{
+    width: 600px;
+    height: 600px;
+    width: 595px;
+    height: 600px;
+    margin-left: 250px;
+    margin-top: 25px;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+
+.main .maincontainer .header{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main .maincontainer .header .img{
+    width: 50px;
+    height: 45px;
+    margin-left: 280px;
+    margin-top: 10px;
+    
+}
+.main .maincontainer .header .sign{
+    color: white;
+
+}
+.main .maincontainer .icon{
+    width: 320px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 8px;
+}
+.main .maincontainer .icon .pic{
+    width: 35px;
+    height: 25px;
+    background-color:whitesmoke;
+}
+.main .maincontainer .icon .anc{
+    font-size: 18px;
+    text-decoration: none;
+    color:#0F1419;
+
+}
+
+.main .maincontainer .apple{
+    width: 320px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 8px;
+    margin-top: 25px;
+}
+.main .maincontainer .apple .pic{
+    width: 35px;
+    height: 25px;
+    background-color: whitesmoke;
+}
+.main .maincontainer .apple .pple{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0F1419;
+}
+
+.main .maincontainer .line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 250px;
+    color: whitesmoke;
+    margin-left: 120px;
+    width: 320px;
+    margin-top: 20px;
+}
+.main .maincontainer hr{
+    width: 40%;
+    height: 1px;
+    background: #333639;
+    margin-top: 25px;
+}
+
+.main .maincontainer .form{
+    display: flex;
+    flex-direction: column;
+}
+.main .maincontainer .input{
+    color: #36454F;
+    margin-left: 120px; 
+    padding: 25px;
+    width: 320px;
+    height: 15px;
+    border: 1px solid;
+    background-color: black;
+}
+.main .maincontainer .form .but{
+    width: 320px;
+    height: 38px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: medium;
+    margin-left: 120px;
+    margin-top: 25px;
+
+}
+.main .maincontainer .for{
+    width: 320px;
+    height: 38px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.main .maincontainer .for .anc{
+    border: 1px solid;
+    width: 320px;
+    height: 38px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 10px;
+    border-color: #F0EAD6;
+    color: #EDEAE0;
+    font-size: large;
+}
+
+.main .maincontainer .sign{
+    text-decoration: none;
+    margin-left: 120px;
+    color: white;display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.main .maincontainer .tag{
+    margin-left: 8px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #1D9BF0;
+}
